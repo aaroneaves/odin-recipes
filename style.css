@@ -1,0 +1,33 @@
+/*Global stuff*/
+
+.body {
+    background-color: rgb(231, 191, 139);
+}
+
+* {
+    font-size: 25px;
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+/*non-Global stuff*/
+
+.center {
+    text-align: center;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.sub-heading {
+    font-size: 35px;
+}
+
+#steps {
+    text-align: left;
+}
+

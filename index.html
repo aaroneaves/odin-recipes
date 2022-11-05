@@ -14,18 +14,15 @@
 
     <div class="big-container">
         <div class="small-container">
-            <!--<a href="recipes/Kheema-Malai-Kofta.html">Kheema Malai Kofta</a>-->
-            <img src="./images/kmk.jpg" alt="creamy Indian goodness" id="kmk-btn">
+            <img src="./images/kmk.jpg" alt="creamy Indian goodness" id="kmk-btn" class = 'img-btn'>
         </div>
 
         <div class="small-container">
-            <a href="recipes/bbq-ribs.html">BBQ Ribs</a>
-            <img src="./images/bbq.jpg" alt="Some succulent pork bbq ribs">
+            <img src="./images/bbq.jpg" alt="Some succulent pork bbq ribs" id="bbq-btn" class = 'img-btn'>
         </div>
 
         <div class="small-container">
-            <a href="recipes/tacos.html">Tacos</a>
-            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8538674.jpg&w=595&h=595&c=sc&poi=face&q=60" alt="Tacos!">
+            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8538674.jpg&w=595&h=595&c=sc&poi=face&q=60" alt="Tacos!" id="taco-btn" class = 'img-btn'>
         </div>
     </div>
 
@@ -34,12 +31,18 @@
 
         const kmkButton = document.querySelector('#kmk-btn');
         kmkButton.addEventListener('click', () => {
-            //alert('it worked, bruv');
             window.location.href = "recipes/Kheema-Malai-Kofta.html";
         });
 
+        const bbqButton = document.querySelector('#bbq-btn');
+        bbqButton.addEventListener('click', () => {
+            window.location.href = "recipes/bbq-ribs.html";
+        });
 
-
+        const tacoButton = document.querySelector('#taco-btn');
+        tacoButton.addEventListener('click', () => {
+            window.location.href = "recipes/tacos.html";
+        });
 
     </script>
 

@@ -7,9 +7,10 @@
 }
 
 img {
-    height: 400px;
+    height: 350px;
     width: auto;
-    border-radius: 20px;
+    border-radius: 40px;
+    border: 1px solid black;
 }
 
 .big-container {
@@ -21,10 +22,10 @@ img {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .sub-heading {
@@ -40,6 +41,11 @@ h1 {
     flex-direction: column;
 }
 
-a {
-    color: black;
+.img-btn:hover {
+    transform: scale(1.05);
 }
+
+.img-btn:active {
+    transform: scale(1.1);
+}
+

@@ -7,20 +7,42 @@
 </head>
 
 <body class="body">
-    <h1 class="center heading">Odin Recipes</h1>
-    <div class="center">
-        <a href="recipes/Kheema-Malai-Kofta.html">Kheema Malai Kofta</a>
-        <br>
-        <img src="./images/kmk.jpg" alt="creamy Indian goodness">
-        <br>
-        <a href="recipes/bbq-ribs.html">BBQ Ribs</a>
-        <br>
-        <img src="./images/bbq.jpg" alt="Some succulent pork bbq ribs">
-        <br>
-        <a href="recipes/tacos.html">Tacos</a>
-        <br>
-        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8538674.jpg&w=595&h=595&c=sc&poi=face&q=60" alt="Tacos!">
+
+    <div class="big-container">
+        <h1>Recipes for the Yum!</h1>
     </div>
+
+    <div class="big-container">
+        <div class="small-container">
+            <!--<a href="recipes/Kheema-Malai-Kofta.html">Kheema Malai Kofta</a>-->
+            <img src="./images/kmk.jpg" alt="creamy Indian goodness" id="kmk-btn">
+        </div>
+
+        <div class="small-container">
+            <a href="recipes/bbq-ribs.html">BBQ Ribs</a>
+            <img src="./images/bbq.jpg" alt="Some succulent pork bbq ribs">
+        </div>
+
+        <div class="small-container">
+            <a href="recipes/tacos.html">Tacos</a>
+            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8538674.jpg&w=595&h=595&c=sc&poi=face&q=60" alt="Tacos!">
+        </div>
+    </div>
+
+
+    <script>
+
+        const kmkButton = document.querySelector('#kmk-btn');
+        kmkButton.addEventListener('click', () => {
+            //alert('it worked, bruv');
+            window.location.href = "recipes/Kheema-Malai-Kofta.html";
+        });
+
+
+
+
+    </script>
+
 </body>
 
 </html>

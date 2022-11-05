@@ -1,9 +1,8 @@
-.body {
+body {
     background-image: url(./images/bg-img.jpeg);
-}
-
-* {
-    font-size: 25px;
+    background-repeat: round;
+    height: 100vh;
+    margin: 0px;
 }
 
 img {
@@ -13,27 +12,19 @@ img {
     border: 1px solid black;
 }
 
-.big-container {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    column-gap: 40px;
-
-}
-
 h1 {
     font-size: 60px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
+    margin-top: 50px;
 }
 
-.sub-heading {
-    font-size: 35px;
-}
-
-#steps {
-    text-align: left;
+.big-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
 }
 
 .small-container {
@@ -48,4 +39,3 @@ h1 {
 .img-btn:active {
     transform: scale(1.1);
 }
-
